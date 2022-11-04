@@ -7,9 +7,14 @@
 
 import SwiftUI
 
-struct Item<Content: View>: Identifiable {
+struct Item: Identifiable {
     let title: String
-    let content: () -> Content
+    let content: () -> any View
+    
+    init(_ title: String, content: @escaping () -> any View) {
+        self.title = title
+        self.content = content
+    }
     
     var id: String { title }
 }
@@ -18,14 +23,17 @@ struct Item<Content: View>: Identifiable {
 struct ContentView: View {
     
     let items: [Item] = [
-        .init(title: "data", content: DataText.init)
+        .init("Date", content: DateText.init),
+        .init("Custom button style", content: CustomButtonStyle.init)
     ]
     
     var body: some View {
         NavigationStack {
             List {
                 ForEach(items) { item in
-                    NavigationLink(destination: item.content) {
+                    NavigationLink {
+                        AnyView(item.content())
+                    } label: {
                         Text(item.title)
                     }
                 }

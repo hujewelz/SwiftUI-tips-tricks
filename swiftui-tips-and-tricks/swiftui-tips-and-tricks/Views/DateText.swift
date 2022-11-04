@@ -1,5 +1,5 @@
 //
-//  DataText.swift
+//  DateText.swift
 //  swiftui-tips-and-tricks
 //
 //  Created by luobobo on 2022/11/5.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DataText: View {
+struct DateText: View {
     var body: some View {
         List {
             Section {
@@ -42,6 +42,6 @@ private var customFormatStyle: DateFormatter = {
 
 struct DataText_Previews: PreviewProvider {
     static var previews: some View {
-        DataText()
+        DateText()
     }
 }
