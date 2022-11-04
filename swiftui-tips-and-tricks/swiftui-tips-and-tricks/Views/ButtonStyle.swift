@@ -50,11 +50,11 @@ struct RoundedBorderedButton<S>: ButtonStyle where S: ShapeStyle {
     
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .opacity(configuration.isPressed ? 0.5 : 1 )
             .overlay(
                 Capsule()
                     .stroke(stroke, lineWidth: lineWidth)
             )
+            .opacity(configuration.isPressed ? 0.5 : 1 )
             .clipShape(Capsule())
     }
 }
