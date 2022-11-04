@@ -1,17 +1,16 @@
 //
-//  ContentView.swift
-//  DateText
+//  DataText.swift
+//  swiftui-tips-and-tricks
 //
-//  Created by luobobo on 2022/1/20.
+//  Created by luobobo on 2022/11/5.
 //
 
 import SwiftUI
 
-struct ContentView: View {
-   
+struct DataText: View {
     var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            Group {
+        List {
+            Section {
                 Text(Date().formatted(date: .complete, time: .complete))
                 Text(Date().formatted(date: .long, time: .standard))
                 Text(Date().formatted(date: .numeric, time:  .shortened))
@@ -20,7 +19,7 @@ struct ContentView: View {
                 Text(Date(), formatter: customFormatStyle)
             }
             
-            Group {
+            Section {
                 Text(Date(), style: .date)
                 Text(Date(), style: .time)
                 
@@ -30,14 +29,8 @@ struct ContentView: View {
                 // 定时器，自动更新
                 Text(Date().addingTimeInterval(60 * 60), style: .timer)
             }
-            
-            Spacer()
         }
-        .padding()
-        
     }
-    
-    
 }
 
 private var customFormatStyle: DateFormatter = {
@@ -46,8 +39,9 @@ private var customFormatStyle: DateFormatter = {
     return formatter
 }()
 
-struct ContentView_Previews: PreviewProvider {
+
+struct DataText_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        DataText()
     }
 }

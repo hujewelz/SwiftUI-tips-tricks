@@ -3,26 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50566A9E2799A34200C26C52 /* DateTextApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50566A9D2799A34200C26C52 /* DateTextApp.swift */; };
-		50566AA02799A34200C26C52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50566A9F2799A34200C26C52 /* ContentView.swift */; };
-		50566AA22799A34400C26C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50566AA12799A34400C26C52 /* Assets.xcassets */; };
-		50566AA52799A34400C26C52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50566AA42799A34400C26C52 /* Preview Assets.xcassets */; };
+		5047E0572915C2060017260D /* swiftui_tips_and_tricksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5047E0562915C2060017260D /* swiftui_tips_and_tricksApp.swift */; };
+		5047E0592915C2060017260D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5047E0582915C2060017260D /* ContentView.swift */; };
+		5047E05B2915C2070017260D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5047E05A2915C2070017260D /* Assets.xcassets */; };
+		5047E05E2915C2070017260D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5047E05D2915C2070017260D /* Preview Assets.xcassets */; };
+		5047E0652915C23C0017260D /* DataText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5047E0642915C23C0017260D /* DataText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		50566A9A2799A34200C26C52 /* DateText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateText.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		50566A9D2799A34200C26C52 /* DateTextApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTextApp.swift; sourceTree = "<group>"; };
-		50566A9F2799A34200C26C52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		50566AA12799A34400C26C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		50566AA42799A34400C26C52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5047E0532915C2060017260D /* swiftui-tips-and-tricks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-tips-and-tricks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5047E0562915C2060017260D /* swiftui_tips_and_tricksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_tips_and_tricksApp.swift; sourceTree = "<group>"; };
+		5047E0582915C2060017260D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5047E05A2915C2070017260D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5047E05D2915C2070017260D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5047E0642915C23C0017260D /* DataText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		50566A972799A34200C26C52 /* Frameworks */ = {
+		5047E0502915C2060017260D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +34,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		50566A912799A34200C26C52 = {
+		5047E04A2915C2060017260D = {
 			isa = PBXGroup;
 			children = (
-				50566A9C2799A34200C26C52 /* DateText */,
-				50566A9B2799A34200C26C52 /* Products */,
+				5047E0552915C2060017260D /* swiftui-tips-and-tricks */,
+				5047E0542915C2060017260D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		50566A9B2799A34200C26C52 /* Products */ = {
+		5047E0542915C2060017260D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50566A9A2799A34200C26C52 /* DateText.app */,
+				5047E0532915C2060017260D /* swiftui-tips-and-tricks.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		50566A9C2799A34200C26C52 /* DateText */ = {
+		5047E0552915C2060017260D /* swiftui-tips-and-tricks */ = {
 			isa = PBXGroup;
 			children = (
-				50566A9D2799A34200C26C52 /* DateTextApp.swift */,
-				50566A9F2799A34200C26C52 /* ContentView.swift */,
-				50566AA12799A34400C26C52 /* Assets.xcassets */,
-				50566AA32799A34400C26C52 /* Preview Content */,
+				5047E0562915C2060017260D /* swiftui_tips_and_tricksApp.swift */,
+				5047E0582915C2060017260D /* ContentView.swift */,
+				5047E0642915C23C0017260D /* DataText.swift */,
+				5047E05A2915C2070017260D /* Assets.xcassets */,
+				5047E05C2915C2070017260D /* Preview Content */,
 			);
-			path = DateText;
+			path = "swiftui-tips-and-tricks";
 			sourceTree = "<group>";
 		};
-		50566AA32799A34400C26C52 /* Preview Content */ = {
+		5047E05C2915C2070017260D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				50566AA42799A34400C26C52 /* Preview Assets.xcassets */,
+				5047E05D2915C2070017260D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,89 +73,89 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		50566A992799A34200C26C52 /* DateText */ = {
+		5047E0522915C2060017260D /* swiftui-tips-and-tricks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50566AA82799A34400C26C52 /* Build configuration list for PBXNativeTarget "DateText" */;
+			buildConfigurationList = 5047E0612915C2070017260D /* Build configuration list for PBXNativeTarget "swiftui-tips-and-tricks" */;
 			buildPhases = (
-				50566A962799A34200C26C52 /* Sources */,
-				50566A972799A34200C26C52 /* Frameworks */,
-				50566A982799A34200C26C52 /* Resources */,
+				5047E04F2915C2060017260D /* Sources */,
+				5047E0502915C2060017260D /* Frameworks */,
+				5047E0512915C2060017260D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DateText;
-			productName = DateText;
-			productReference = 50566A9A2799A34200C26C52 /* DateText.app */;
+			name = "swiftui-tips-and-tricks";
+			productName = "swiftui-tips-and-tricks";
+			productReference = 5047E0532915C2060017260D /* swiftui-tips-and-tricks.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		50566A922799A34200C26C52 /* Project object */ = {
+		5047E04B2915C2060017260D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1310;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					50566A992799A34200C26C52 = {
-						CreatedOnToolsVersion = 13.1;
+					5047E0522915C2060017260D = {
+						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 50566A952799A34200C26C52 /* Build configuration list for PBXProject "DateText" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = 5047E04E2915C2060017260D /* Build configuration list for PBXProject "swiftui-tips-and-tricks" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 50566A912799A34200C26C52;
-			productRefGroup = 50566A9B2799A34200C26C52 /* Products */;
+			mainGroup = 5047E04A2915C2060017260D;
+			productRefGroup = 5047E0542915C2060017260D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50566A992799A34200C26C52 /* DateText */,
+				5047E0522915C2060017260D /* swiftui-tips-and-tricks */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		50566A982799A34200C26C52 /* Resources */ = {
+		5047E0512915C2060017260D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50566AA52799A34400C26C52 /* Preview Assets.xcassets in Resources */,
-				50566AA22799A34400C26C52 /* Assets.xcassets in Resources */,
+				5047E05E2915C2070017260D /* Preview Assets.xcassets in Resources */,
+				5047E05B2915C2070017260D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		50566A962799A34200C26C52 /* Sources */ = {
+		5047E04F2915C2060017260D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50566AA02799A34200C26C52 /* ContentView.swift in Sources */,
-				50566A9E2799A34200C26C52 /* DateTextApp.swift in Sources */,
+				5047E0592915C2060017260D /* ContentView.swift in Sources */,
+				5047E0572915C2060017260D /* swiftui_tips_and_tricksApp.swift in Sources */,
+				5047E0652915C23C0017260D /* DataText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		50566AA62799A34400C26C52 /* Debug */ = {
+		5047E05F2915C2070017260D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -196,7 +199,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -206,14 +209,13 @@
 			};
 			name = Debug;
 		};
-		50566AA72799A34400C26C52 /* Release */ = {
+		5047E0602915C2070017260D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -251,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -261,14 +263,14 @@
 			};
 			name = Release;
 		};
-		50566AA92799A34400C26C52 /* Debug */ = {
+		5047E0622915C2070017260D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DateText/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-tips-and-tricks/Preview Content\"";
 				DEVELOPMENT_TEAM = UA8U3Z7XU4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -282,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.jewelz.DateText;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jewelz.swiftui-tips-and-tricks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -290,14 +292,14 @@
 			};
 			name = Debug;
 		};
-		50566AAA2799A34400C26C52 /* Release */ = {
+		5047E0632915C2070017260D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DateText/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-tips-and-tricks/Preview Content\"";
 				DEVELOPMENT_TEAM = UA8U3Z7XU4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -311,7 +313,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.jewelz.DateText;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jewelz.swiftui-tips-and-tricks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,25 +324,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		50566A952799A34200C26C52 /* Build configuration list for PBXProject "DateText" */ = {
+		5047E04E2915C2060017260D /* Build configuration list for PBXProject "swiftui-tips-and-tricks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50566AA62799A34400C26C52 /* Debug */,
-				50566AA72799A34400C26C52 /* Release */,
+				5047E05F2915C2070017260D /* Debug */,
+				5047E0602915C2070017260D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50566AA82799A34400C26C52 /* Build configuration list for PBXNativeTarget "DateText" */ = {
+		5047E0612915C2070017260D /* Build configuration list for PBXNativeTarget "swiftui-tips-and-tricks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50566AA92799A34400C26C52 /* Debug */,
-				50566AAA2799A34400C26C52 /* Release */,
+				5047E0622915C2070017260D /* Debug */,
+				5047E0632915C2070017260D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 50566A922799A34200C26C52 /* Project object */;
+	rootObject = 5047E04B2915C2060017260D /* Project object */;
 }
