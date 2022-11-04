@@ -7,15 +7,31 @@
 
 import SwiftUI
 
+struct Item<Content: View>: Identifiable {
+    let title: String
+    let content: () -> Content
+    
+    var id: String { title }
+}
+
+
 struct ContentView: View {
+    
+    let items: [Item] = [
+        .init(title: "data", content: DataText.init)
+    ]
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            List {
+                ForEach(items) { item in
+                    NavigationLink(destination: item.content) {
+                        Text(item.title)
+                    }
+                }
+            }
+            .navigationTitle("Tips & tricks")
         }
-        .padding()
     }
 }
 
