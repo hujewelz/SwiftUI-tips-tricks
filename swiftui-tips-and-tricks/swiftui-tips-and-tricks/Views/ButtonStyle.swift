@@ -32,6 +32,21 @@ struct CustomButtonStyle: View {
                     lineWidth: 4)
             )
             
+            Button {
+                print("tap button")
+            } label: {
+                LinearGradient(colors: [.red, .orange, .purple], startPoint: .leading, endPoint: .trailing)
+                    .frame(width: 120, height: 50)
+                    .clipShape(Capsule())
+                    .padding(5)
+                    .overlay(Text("Hello, World!"))
+            }
+            .buttonStyle(
+                RoundedBorderedButton(
+                    stroke: LinearGradient(colors: [.red, .orange, .purple], startPoint: .leading, endPoint: .trailing),
+                    lineWidth: 4)
+            )
+            
             Spacer()
         }
         .padding()
