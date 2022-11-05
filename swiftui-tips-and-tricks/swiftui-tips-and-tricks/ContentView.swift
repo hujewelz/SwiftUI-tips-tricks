@@ -24,7 +24,8 @@ struct ContentView: View {
     
     let items: [Item] = [
         .init("Date", content: DateText.init),
-        .init("Custom button style", content: CustomButtonStyle.init)
+        .init("Custom button style", content: CustomButtonStyle.init),
+        .init("Bottom sheet", content: BottomSheetExample.init)
     ]
     
     var body: some View {
